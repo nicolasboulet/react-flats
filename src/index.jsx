@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import '../assets/stylesheets/application.scss';
+import FlatList from './components/flat_list';
 
 const App = () => {
   return (
     <div>
-      <h1>My App</h1>
+      <FlatList />
     </div>
   );
 };
