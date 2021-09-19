@@ -7,10 +7,15 @@ const FlatList = () => {
     <div className="flat-list">
       {flats.map((flat) => {
         return (
-          <Flat name={flat.name} key={flat.name} price={flat.price} pricecurrency={flat.priceCurrency} imageUrl={flat.imageUrl} />    
+          <Flat
+            name={flat.name}
+            key={flat.name}
+            price={flat.price}
+            pricecurrency={flat.priceCurrency}
+            imageUrl={flat.imageUrl}
+          />
         );
-      }
-      )} 
+      })}
     </div>
   );
 };
